@@ -1,4 +1,4 @@
-const Lesson = require('../models/lesson');
+const lesson = require('../models/lesson');
 const sydFunctions = require('../utils/syd-functions');
 
 exports.getAlllessons = async (req, res, next) => {
